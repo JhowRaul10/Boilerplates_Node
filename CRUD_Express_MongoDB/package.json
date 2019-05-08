@@ -1,0 +1,16 @@
+{
+	"name": "crud_express_mongodb",
+	"version": "0.0.1",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"express": "",
+		"body-parser": "",
+		"mongoose": ""
+	},
+	"author": "Jhonatan Raul Krautczuk",
+	"license": "ISC"
+}
