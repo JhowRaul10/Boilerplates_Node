@@ -1,14 +1,14 @@
-## CRUD com Express e MongoDB
+## CRUD com Express e MySQL
 
-Com o MongoDB pronto para uso você pode realizar testes da API "CRUD_Express_MongoDB" no [Postman](https://www.getpostman.com/downloads/) fazendo requisições HTTP nos URLs com os seguintes métodos:
+Com o MySQL pronto para uso você pode realizar testes da API "CRUD_Express_MySQL" no [Postman](https://www.getpostman.com/downloads/) fazendo requisições HTTP nos URLs com os seguintes métodos:
 
 Start no server: ``$ Node server.js``
 <br>
 
 **URL** : localhost:3000/posts <br>
 
-Método **GET** : Listar posts <br>
-Método **POST** : Inserir post, use __body__ em  __x-www-form-urlencoded__ com os dados, ex: <br>
+Método **GET** : Listar posts ✓<br>
+Método **POST** : Inserir post, use __body__ em  __x-www-form-urlencoded__ com os dados, ex: (__Ainda não implementado__)<br>
 
 Key  | Value
 ------------- | -------------
@@ -19,9 +19,9 @@ body  | "Corpo do post, insira..."
 
 **URL** : localhost:3000/posts/id
 
-Método **GET** : Ler 1 post <br>
-Método **DELETE** : Deletar 1 post, apenas troque /id para o número do id cadastrado <br>
-Método **PUT** : Alterar 1 post, use __body__ em  __x-www-form-urlencoded__ com os dados, ex:
+Método **GET** : Ler 1 post (__Ainda não implementado__)<br>
+Método **DELETE** : Deletar 1 post, apenas troque /id para o número do id cadastrado (__Ainda não implementado__)<br>
+Método **PUT** : Alterar 1 post, use __body__ em  __x-www-form-urlencoded__ com os dados, ex: (__Ainda não implementado__)
 
 Key  | Value
 ------------- | -------------
