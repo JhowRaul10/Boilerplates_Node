@@ -1,7 +1,7 @@
 module.exports = app => {
 	const Controller = require('../controllers/post')
 	
-	app.route('/post')
+	app.route('/posts')
 		.post(Controller.create)
 		.get(Controller.listAll)
 	
