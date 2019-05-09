@@ -7,7 +7,7 @@ Start no server: ``$ Node server.js``
 
 **URL** : localhost:3000/posts <br>
 
-Método **GET** : Listar posts (__Ainda não implementado__)<br>
+Método **GET** : Listar posts ✓<br>
 Método **POST** : Inserir post, use __body__ em  __x-www-form-urlencoded__ com os dados, ex: (__Ainda não implementado__)<br>
 
 Key  | Value
