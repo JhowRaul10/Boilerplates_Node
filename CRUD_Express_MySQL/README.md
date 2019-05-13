@@ -13,11 +13,11 @@ Método **POST** : Inserir post, use __body__ em  __x-www-form-urlencoded__ com 
 Key  | Value
 ------------- | -------------
 id  | 1
-title  | "Titulo do post" 
-body  | "Corpo do post, insira..." 
+title  | Titulo do post 
+body  | Corpo do post, insira... 
 <br>
 
-**URL** : localhost:3000/posts/id (__Troque id por o número de id cadastrado__)
+**URL** : localhost:3000/posts/:id (__Troque :id por o número de id cadastrado__)
 
 Método **GET** : Ler 1 post<br>
 Método **DELETE** : Deletar 1 post<br>
